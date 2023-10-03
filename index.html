@@ -1,0 +1,46 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/style.css">
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <!-- title webpage -->
+    <header>
+        Weather Dashboard
+    </header>
+    <div class="main">
+    <!-- search box for city and past search -->
+        <div class="search-section">
+            
+                <h2>Search for a City: </h2>
+                <input type="text" id="search" placeholder="type the city">
+                <button id="search-btn">Search</button>
+            
+                <div>
+                    <ul class="history">
+
+                    </ul>
+                </div>
+        </div>
+        <!-- weather section -->
+        <div class="weather">
+            <!-- current search weather and conditions -->
+            <div class="current">
+
+            </div>
+            <!-- 5-days later of the city -->
+            <div class="days">
+                <h2>5-day Forecast:</h2>
+                <div class="forecast"></div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="assets/script.js"></script>
+</body>
+</html>
